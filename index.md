@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Stanford FLAME AI Workshop
-description: Future Learning Approaches for Modeling and Engineering
+description: "FLAME: Future Learning Approaches for Modeling and Engineering"
 ---
 # Apply now
 We invite Combustion, Fluid dynamics, Computational, or AI/ML researchers worldwide to join us at this virtual/hybrid workshop by [signing up here!](https://www.eventbrite.com/e/stanford-flame-ai-workshop-2023-tickets-593756701277)

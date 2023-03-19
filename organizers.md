@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Stanford FLAME AI Workshop
-description: Future Learning Approaches for Modeling and Engineering Combustion
+description: "FLAME: Future Learning Approaches for Modeling and Engineering"
 ---
 
 ## Organizing Committee
