@@ -12,6 +12,7 @@ To foster a dynamic forum for exchanging ideas, data, methods, and models relate
 # Agenda
 1. Lectures and talks will be given by AI/ML experts within Stanford and industry partners from the Greater Silicon Valley area.
 2. Practical exercises<sup>*</sup> and tutorial sessions will be held to tackle generative modeling challenges in combustion, turbulence, and fluid dynamics.
+
 <sup>*</sup>The outcomes of these practical exercises will be compiled towards a collaborative publication.
 
 # Focus
