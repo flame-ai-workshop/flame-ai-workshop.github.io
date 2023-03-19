@@ -14,6 +14,36 @@ description: Future Learning Approaches for Modeling and Engineering Combustion
 
 [Bassem Akoush](https://www.linkedin.com/in/bassem-akoush/) (Stanford University)
 
+<!-- <div style="display:flex; align-items: center">
+
+<figure>
+  <div class="image-wrapper">
+    <img src="./assets/img/fxlab.png"  width="150" height="" style="vertical-align: 0;">
+  </div>
+</figure>
+<figure>
+  <div class="image-wrapper">
+    <img src="./assets/img/hai.png"  width="150" height="150" style="vertical-align: 2;">
+  </div>
+</figure>
+</div>
+
+<style>
+  .image-wrapper {
+    height: 50px;
+  }
+
+  .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+</style> -->
+
+
+
+
+
 
 <!-- <div style="display:flex; align-items: center">
 <figure style="margin-right:0px">
