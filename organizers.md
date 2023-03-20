@@ -10,7 +10,7 @@ description: "FLAME: Future Learning Approaches for Modeling and Engineering"
 
 [Wai Tong Chung](https://waitong94.github.io/) (Stanford University, Stanford Institute for Human-Centered AI)
 
-[Pushan Sharma](linkedin.com/in/pushan-sharma-0b327588/) (Stanford University)
+[Pushan Sharma](https://www.linkedin.com/in/pushan-sharma-0b327588/) (Stanford University)
 
 [Bassem Akoush](https://www.linkedin.com/in/bassem-akoush/) (Stanford University)
 
