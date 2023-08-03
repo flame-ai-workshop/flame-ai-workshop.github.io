@@ -24,6 +24,15 @@ speakers:
     url: https://www.linkedin.com/in/bassem-akoush/
     aff: Stanford University
     image: ./assets/img/akoush.png
+  - name: Aaron Lou
+    url: https://aaronlou.com/
+    aff: Stanford University
+    image: ./assets/img/lou.png
+  - name: Chris Cundy
+    url: https://cundy.me/
+    aff: Stanford University
+    image: ./assets/img/cundy.png
+
 ---
 
 
