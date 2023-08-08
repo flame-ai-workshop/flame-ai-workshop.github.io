@@ -4,16 +4,19 @@ title: Stanford FLAME AI Workshop
 description: "FLAME: Future Learning Approaches for Modeling and Engineering"
 
 speakers:
+  - name: Steve Brunton
+    url: ./assets/img/speaker_flyer_brunton.pdf
+    aff: Professor<br />University of Washington
+    interest: '"Machine Learning for<br />Scientific Discovery, with<br />Applications in Fluid Mechanics"'
+    image: ./assets/img/brunton.png
   - name: Walter Reade
     url: ./assets/img/speaker_flyer_reade.pdf
-    topic: Machine Learning for Discovery
-    aff: Kaggle
+    aff: Data Scientist<br />Kaggle
     interest: '"Open-source<br />Crowdscience on Kaggle"'
     image: ./assets/img/reade.png
   - name: Alex Tamkin
     url: ./assets/img/speaker_flyer_tamkin.pdf
-    topic: Machine Learning for Discovery
-    aff: Stanford AI Lab, Stanford NLP
+    aff: Researcher<br />Stanford AI Lab, Stanford NLP
     interest: '"Foundation Models<br />for the Sciences"'
     image: ./assets/img/tamkin.png
 ---
