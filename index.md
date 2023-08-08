@@ -16,7 +16,7 @@ speakers:
     image: ./assets/img/reade.png
   - name: Alex Tamkin
     url: ./assets/img/speaker_flyer_tamkin.pdf
-    aff: Researcher<br />Stanford AI Lab, Stanford NLP
+    aff: PhD, Stanford AI Lab
     interest: '"Foundation Models<br />for the Sciences"'
     image: ./assets/img/tamkin.png
 ---
