@@ -9,6 +9,11 @@ speakers:
     aff: Professor<br />University of Washington
     interest: '"Machine Learning for<br />Scientific Discovery, with<br />Applications in Fluid Mechanics"'
     image: ./assets/img/brunton.png
+  - name: Stephan Hoyer
+    url: ./assets/img/speaker_flyer_hoyer.pdf
+    aff: Google Research
+    interest: '"Deep Learning with<br />Differentiable Physics for<br />Fluid Dynamics and<br />Weather fFrecasting"'
+    image: ./assets/img/hoyer.png
   - name: Walter Reade
     url: ./assets/img/speaker_flyer_reade.pdf
     aff: Data Scientist<br />Kaggle
@@ -16,7 +21,7 @@ speakers:
     image: ./assets/img/reade.png
   - name: Alex Tamkin
     url: ./assets/img/speaker_flyer_tamkin.pdf
-    aff: PhD, Stanford AI Lab
+    aff: Stanford AI Lab
     interest: '"Foundation Models<br />for the Sciences"'
     image: ./assets/img/tamkin.png
 ---
