@@ -14,6 +14,11 @@ speakers:
     aff: Google Research
     interest: '"Deep Learning with<br />Differentiable Physics for<br />Fluid Dynamics and<br />Weather fFrecasting"'
     image: ./assets/img/hoyer.png
+  - name: George Karniadakis
+    url: ./assets/img/speaker_flyer_karniadakis.pdf
+    aff: Professor, Brown University
+    interest: '"Physics-informed Neural Networks<br />(PINNs) and Neural Operators<br />for Fluid Mechanics<br />and Reactive Transport"'
+    image: ./assets/img/karniadakis.png
   - name: Walter Reade
     url: ./assets/img/speaker_flyer_reade.pdf
     aff: Data Scientist<br />Kaggle
