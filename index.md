@@ -12,7 +12,7 @@ speakers:
   - name: Stephan Hoyer
     url: ./assets/img/speaker_flyer_hoyer.pdf
     aff: Google Research
-    interest: '"Deep Learning with<br />Differentiable Physics for<br />Fluid Dynamics and<br />Weather fFrecasting"'
+    interest: '"Deep Learning with<br />Differentiable Physics for<br />Fluid Dynamics and<br />Weather Forecasting"'
     image: ./assets/img/hoyer.png
   - name: George Karniadakis
     url: ./assets/img/speaker_flyer_karniadakis.pdf
