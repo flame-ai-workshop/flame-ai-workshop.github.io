@@ -4,6 +4,11 @@ title: Stanford FLAME AI Workshop
 description: "FLAME: Future Learning Approaches for Modeling and Engineering"
 
 speakers:
+  - name: Anima Anandkumar
+    url: ./assets/img/speaker_flyer_anandkumar.pdf
+    aff: Professor, Caltech<br />Sr. Director of AI Research, Nvidia
+    interest: 'Neural operators:<br />AI for accelerating<br />simulation and design'
+    image: ./assets/img/anandkumar.png
   - name: Steve Brunton
     url: ./assets/img/speaker_flyer_brunton.pdf
     aff: Professor<br />University of Washington
