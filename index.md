@@ -34,6 +34,11 @@ speakers:
     aff: Stanford AI Lab
     interest: '"Foundation Models<br />for the Sciences"'
     image: ./assets/img/tamkin.png
+  - name: Jian-xun Wang
+    url: ./assets/img/speaker_flyer_wang.pdf
+    aff: Assistant Professor<br />University of Notre Dame
+    interest: '"Differentiable Hybrid<br />Neural Modeling for<br />Spatiotemporal Physics"'
+    image: ./assets/img/wang.png
 ---
 # Apply now
 We invite Computational, Fluid Dynamics, Combustion, or AI/ML researchers worldwide  to join us at this virtual/hybrid workshop by [signing up here!](https://www.eventbrite.com/e/stanford-flame-ai-workshop-2023-tickets-593756701277)
