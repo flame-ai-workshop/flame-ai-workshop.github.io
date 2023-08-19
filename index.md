@@ -14,6 +14,11 @@ speakers:
     aff: Professor<br />University of Washington
     interest: '"Machine Learning for<br />Scientific Discovery, with<br />Applications in Fluid Mechanics"'
     image: ./assets/img/brunton.png
+  - name: Miles Cranmer
+    url: ./assets/img/speaker_flyer_cranmer.pdf
+    aff: Assitant Professor<br />University of Cambridge
+    interest: '"The Next Great<br />Scientific Theory is<br />Hiding Inside Your<br />Neural Network"'
+    image: ./assets/img/cranmer.png
   - name: Stephan Hoyer
     url: ./assets/img/speaker_flyer_hoyer.pdf
     aff: Google Research
