@@ -7,7 +7,7 @@ speakers:
   - name: Anima Anandkumar
     url: ./assets/img/speaker_flyer_anandkumar.pdf
     aff: Professor, Caltech<br />Sr. Director of AI Research, Nvidia
-    interest: 'Neural operators:<br />AI for accelerating<br />simulation and design'
+    interest: 'Neural Operators:<br />AI for Accelerating<br />Simulation and Design'
     image: ./assets/img/anandkumar.png
   - name: Steve Brunton
     url: ./assets/img/speaker_flyer_brunton.pdf
@@ -29,6 +29,11 @@ speakers:
     aff: Professor, Brown University
     interest: '"Physics-informed Neural Networks<br />(PINNs) and Neural Operators<br />for Fluid Mechanics<br />and Reactive Transport"'
     image: ./assets/img/karniadakis.png
+  - name: Alessandro Parente
+    url: ./assets/img/speaker_flyer_parente.pdf
+    aff: Professor<br />Université Libre de Bruxelles
+    interest: '"Accelerating Reacting Flow<br />Simulations using Physics-aware<br />Data-driven Approaches"'
+    image: ./assets/img/parente.png
   - name: Walter Reade
     url: ./assets/img/speaker_flyer_reade.pdf
     aff: Data Scientist<br />Kaggle
