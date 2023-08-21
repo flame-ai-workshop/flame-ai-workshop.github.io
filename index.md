@@ -31,7 +31,7 @@ speakers:
     image: ./assets/img/karniadakis.png
   - name: Alessandro Parente
     url: ./assets/img/speaker_flyer_parente.pdf
-    aff: Professor<br />Université Libre de Bruxelles
+    aff: Professor<br />Université libre de Bruxelles
     interest: '"Accelerating Reacting Flow<br />Simulations using Physics-aware<br />Data-driven Approaches"'
     image: ./assets/img/parente.png
   - name: Walter Reade
