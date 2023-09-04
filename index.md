@@ -16,9 +16,14 @@ speakers:
     image: ./assets/img/brunton.png
   - name: Miles Cranmer
     url: ./assets/img/speaker_flyer_cranmer.pdf
-    aff: Assitant Professor<br />University of Cambridge
+    aff: Assistant Professor<br />University of Cambridge
     interest: '"The Next Great<br />Scientific Theory is<br />Hiding Inside Your<br />Neural Network"'
     image: ./assets/img/cranmer.png
+  - name: Tarek Echekki
+    url: ./assets/img/speaker_flyer_echekki.pdf
+    aff: Professor<br />North Carolina State University
+    interest: '"From Experiments to<br />Models: Challenges and<br />New Opportunities for<br />Turbulent Combustion"'
+    image: ./assets/img/echekki.png
   - name: Stephan Hoyer
     url: ./assets/img/speaker_flyer_hoyer.pdf
     aff: Google Research
@@ -28,6 +33,11 @@ speakers:
     url: ./assets/img/speaker_flyer_karniadakis.pdf
     aff: Professor, Brown University
     interest: '"Physics-informed Neural Networks<br />(PINNs) and Neural Operators<br />for Fluid Mechanics<br />and Reactive Transport"'
+    image: ./assets/img/karniadakis.png
+  - name: Petros Koumoutsakos
+    url: ./assets/img/speaker_flyer_koumoutsakos.pdf
+    aff: Professor, Harvard University
+    interest: '"Scientific Computing and Machine<br />Learning: There is Plenty of<br />Room in the Middle"'
     image: ./assets/img/karniadakis.png
   - name: Alessandro Parente
     url: ./assets/img/speaker_flyer_parente.pdf
@@ -49,6 +59,11 @@ speakers:
     aff: Assistant Professor<br />University of Notre Dame
     interest: '"Differentiable Hybrid<br />Neural Modeling for<br />Spatiotemporal Physics"'
     image: ./assets/img/wang.png
+  - name: Shashank Yellapantula
+    url: ./assets/img/speaker_flyer_yellapantula.pdf
+    aff: Senior Scientist, National<br />Renewable Energy Laboratory
+    interest: '"Data-Driven Reacting Flow<br />Model Development: Data Sampling,<br />Non-Linear Models and<br />Uncertainty Quantification"'
+    image: ./assets/img/yellapantula.png
 ---
 # Apply now
 We invite Computational, Fluid Dynamics, Combustion, or AI/ML researchers worldwide  to join us at this virtual/hybrid workshop by [signing up here!](https://www.eventbrite.com/e/stanford-flame-ai-workshop-2023-tickets-593756701277)
