@@ -38,7 +38,7 @@ speakers:
     url: ./assets/img/speaker_flyer_koumoutsakos.pdf
     aff: Professor, Harvard University
     interest: '"Scientific Computing and Machine<br />Learning: There is Plenty of<br />Room in the Middle"'
-    image: ./assets/img/karniadakis.png
+    image: ./assets/img/koumoutsakos.png
   - name: Alessandro Parente
     url: ./assets/img/speaker_flyer_parente.pdf
     aff: Professor<br />Université libre de Bruxelles
