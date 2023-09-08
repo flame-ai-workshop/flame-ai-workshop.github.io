@@ -39,6 +39,11 @@ speakers:
     aff: Professor, Harvard University
     interest: '"Scientific Computing and Machine<br />Learning: There is Plenty of<br />Room in the Middle"'
     image: ./assets/img/koumoutsakos.png
+  - name: Aaron Lou
+    url: ./assets/img/speaker_flyer_lou.pdf
+    aff: PhD Student<br />Stanford University
+    interest: '"An Introduction<br />to Score-Based<br />Diffusion Models"'
+    image: ./assets/img/lou.png
   - name: Alessandro Parente
     url: ./assets/img/speaker_flyer_parente.pdf
     aff: Professor<br />Université libre de Bruxelles
