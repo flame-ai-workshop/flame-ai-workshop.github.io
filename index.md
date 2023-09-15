@@ -70,8 +70,8 @@ speakers:
     interest: '"Data-Driven Reacting Flow<br />Model Development: Data Sampling,<br />Non-Linear Models and<br />Uncertainty Quantification"'
     image: ./assets/img/yellapantula.png
 ---
-# Apply now
-We invite Computational, Fluid Dynamics, Combustion, or AI/ML researchers worldwide  to join us at this virtual/hybrid workshop by [signing up here!](https://www.eventbrite.com/e/stanford-flame-ai-workshop-2023-tickets-593756701277)
+<!-- # Apply now
+We invite Computational, Fluid Dynamics, Combustion, or AI/ML researchers worldwide  to join us at this virtual/hybrid workshop by [signing up here!](https://www.eventbrite.com/e/stanford-flame-ai-workshop-2023-tickets-593756701277) -->
 
 # Mission
 To foster a dynamic forum for exchanging ideas, data, methods, and models related to ML techniques for fluid dynamics, turbulence, and combustion - fields crucial to the development of energy, propulsion, climate, and safety systems.
