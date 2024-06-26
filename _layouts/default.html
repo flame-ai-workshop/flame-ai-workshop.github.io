@@ -25,6 +25,12 @@
       <a href="{{ site.github.flyer_url }}" class="btn">Flyer</a>
       <a href="{{ site.github.organizer_url }}" class="btn">Organizers</a>
       <a href="{{ site.github.contact_url }}" class="btn">Email</a>
+      <!-- <a href="{{ site.github.v2023_url }}" class="btn">Flame AI 2023</a> -->
+      {% if page.url contains '2023' %}
+      <a href="{{ site.github.main_url }}" class="btn">Flame AI 2024</a>
+    {% else %}
+      <a href="{{ site.github.v2023_url }}" class="btn">Flame AI 2023</a>
+    {% endif %}
       <!-- <a href="{{ site.github.contact_url }}" class="btn">Contact us</a> -->
     </header>
 

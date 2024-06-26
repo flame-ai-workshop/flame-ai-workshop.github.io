@@ -1,13 +1,16 @@
-title: Stanford FLAME AI Workshop
+title: Stanford FLAME AI Workshop 2024
 description: "FLAME: Future Learning Approaches for Modeling and Engineering"
-venue: "Dates: Sept 5 to Sept 15 2023 | Venue: Virtual"
+venue: "Dates: Sept 3 to Sept 27 2024 | Venue: Virtual"
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
 
 github:
   about_url: ./index.html
-  apply_url: https://www.eventbrite.com/e/stanford-flame-ai-workshop-2023-tickets-593756701277
+  apply_url: https://www.eventbrite.com/e/stanford-flame-ai-workshop-2024-tickets-933783961967
   contact_url: "mailto:flame.ai.workshop@gmail.com"
   organizer_url: ./organizers.html
   flyer_url: ./assets/img/flyer.pdf
+  v2023_url: ./2023/
+  main_url: /
+
