@@ -51,7 +51,7 @@ To foster a dynamic forum for exchanging ideas, cutting-edge data, advanced meth
 
 # Agenda
 1. A **four-week long ML challenge** (involving 1-2 person(s) per team) will be held to tackle ML-challenges in predicting spatio-temporal and dynamical processes in physical sciences, environmental flows, and engineering with open-source data.
-- **Prize**: Total of $5000 for leading teams of ML challenge and invitation to a joint publication
+- **Prize**: Total of $5000 for winning teams of ML challenge and an invitation for leading contributors to a joint publication.
 2. **Invite talks and keynote lectures** on cutting-edge trends will be given by AI/ML experts within Stanford, academic guests,
 and industry partners from the Greater Silicon Valley ecosystem. Topics include:
 
