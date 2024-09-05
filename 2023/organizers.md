@@ -3,6 +3,7 @@ layout: default
 title: Stanford FLAME AI Workshop 2023
 description: "FLAME: Future Learning Approaches for Modeling and Engineering"
 venue: "Dates: Sept 5 to Sept 15 2023 | Venue: Virtual"
+header_bg: "./assets/img/561076_wallpaper-type image focusing on fluid, flames, en_xl-beta-v2-2-2.png"
 
 speakers:
   - name: Prof. Matthias Ihme
