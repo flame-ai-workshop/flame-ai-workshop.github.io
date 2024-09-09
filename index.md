@@ -10,6 +10,11 @@ speakers:
     # aff: Director of Research <br /> Data Science Institute at Imperial College London
     # interest: 'Neural Operators:<br />AI for Accelerating<br />Simulation and Design'
     image: ./assets/img/arcucci.png
+  - name: Yifang Ban
+    url: ./assets/img/speaker_flyer_ban.pdf
+    aff: Professor<br /> KTH Royal Institute of Technology
+    # interest: 
+    image: ./assets/img/ban.png
   - name: Ben Blaiszik
     url: ./assets/img/speaker_flyer_blaiszik.pdf
     aff: Research Manager<br />University of Chicago
@@ -18,34 +23,51 @@ speakers:
   - name: Marshall Burke
     url: ./assets/img/speaker_flyer_burke.pdf
     aff: Associate Professor, Stanford
-    # interest: '"Machine Learning for<br />Scientific Discovery, with<br />Applications in Fluid Mechanics"'
+    # interest: 
     image: ./assets/img/burke.png
+  - name: Amir Barati Farimani
+    url: ./assets/img/speaker_flyer_barati.pdf
+    aff: Associate Professor <br /> Carnegie Mellon University
+    # interest: 
+    image: ./assets/img/barati.png
   - name: Ian Foster
     url: ./assets/img/speaker_flyer_foster.pdf
     aff: Professor, University of Chicago<br /> Director  DSL Division, Argonne
-    # interest: '"Machine Learning for<br />Scientific Discovery, with<br />Applications in Fluid Mechanics"'
+    # interest: 
     image: ./assets/img/foster.png
+  - name: Lu Lu
+    url: ./assets/img/speaker_flyer_lu.pdf
+    aff: Assistant Professor <br /> Yale University
+    # interest: 
+    image: ./assets/img/lu.png
+  - name: Pinaki Pal
+    url: ./assets/img/speaker_flyer_pal.pdf
+    aff: Sr. Research Scientist, Argonne
+    # interest: 
+    image: ./assets/img/pal.png
+  - name: Russell Poldrack
+    url: ./assets/img/speaker_flyer_poldrack.pdf
+    aff: Professor, Stanford
+    # interest: 
+    image: ./assets/img/poldrack.png
   - name: Walter Reade
     url: ./assets/img/speaker_flyer_reade.pdf
-    aff: Data Scientist, Kaggle #<br /> Technische Universität München
-    # interest: '"Machine Learning for<br />Scientific Discovery, with<br />Applications in Fluid Mechanics"'
+    aff: Data Scientist, Kaggle
+    # interest: 
     image: ./assets/img/reade.png
   - name: Nils Thürey
     url: ./assets/img/speaker_flyer_thurey.pdf
     aff: Associate Professor<br /> Technische Universität München
-    # interest: '"Machine Learning for<br />Scientific Discovery, with<br />Applications in Fluid Mechanics"'
+    # interest: 
     image: ./assets/img/thurey.png
   - name: Ricardo Vinuesa
     url: ./assets/img/speaker_flyer_vinuesa.pdf
     aff: Associate Professor<br /> KTH Royal Institute of Technology
-    # interest: '"Machine Learning for<br />Scientific Discovery, with<br />Applications in Fluid Mechanics"'
+    # interest: 
     image: ./assets/img/vinuesa.png
 ---
-<!-- # Apply now
-We invite Computational, Fluid Dynamics, Combustion, or AI/ML researchers worldwide  to join us at this virtual/hybrid workshop by [signing up here!](https://www.eventbrite.com/e/stanford-flame-ai-workshop-2023-tickets-593756701277) -->
 
 # Mission
-<!-- To foster a dynamic forum for exchanging ideas, data, methods, and models related to ML techniques for fluid dynamics, turbulence, and environmental flow - fields crucial to the development of energy, climate, wildfire mitigation and safety systems. -->
 To foster a dynamic forum for exchanging ideas, cutting-edge data, advanced methods, and models related to ML techniques for fluid dynamics, turbulence, and environmental science - applications crucial to the development of sustainable energy solutions, climate resilience, wildfire mitigation, and safety systems.
 
 
