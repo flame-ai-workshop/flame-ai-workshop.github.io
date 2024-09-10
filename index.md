@@ -4,9 +4,15 @@ title: Stanford FLAME AI Workshop 2024
 description: "FLAME: Future Learning Approaches for Modeling and Engineering"
 
 speakers:
+  - name: Yossi Matias<sup>*</sup>
+    url: ./assets/img/speaker_flyer_matias.pdf
+    aff: Vice President <br /> Google 
+    # interest:
+    image: ./assets/img/matias.png
   - name: Rosella Arcucci
     url: ./assets/img/speaker_flyer_arcucci.pdf
-    aff: Director of Research <br /> DSI at Imperial College London
+    aff: Associate Professor <br /> Imperial College London
+    # aff: Director of Research <br /> DSI at Imperial College London
     # aff: Director of Research <br /> Data Science Institute at Imperial College London
     # interest: 'Neural Operators:<br />AI for Accelerating<br />Simulation and Design'
     image: ./assets/img/arcucci.png
@@ -22,7 +28,7 @@ speakers:
     image: ./assets/img/blaiszik.png
   - name: Marshall Burke
     url: ./assets/img/speaker_flyer_burke.pdf
-    aff: Associate Professor, Stanford
+    aff: Associate Professor <br /> Stanford University
     # interest: 
     image: ./assets/img/burke.png
   - name: Amir Barati Farimani
@@ -42,17 +48,17 @@ speakers:
     image: ./assets/img/lu.png
   - name: Pinaki Pal
     url: ./assets/img/speaker_flyer_pal.pdf
-    aff: Sr. Research Scientist, Argonne
+    aff: Sr. Research Scientist <br /> Argonne
     # interest: 
     image: ./assets/img/pal.png
   - name: Russell Poldrack
     url: ./assets/img/speaker_flyer_poldrack.pdf
-    aff: Professor, Stanford
+    aff: Professor <br /> Stanford University
     # interest: 
     image: ./assets/img/poldrack.png
   - name: Walter Reade
     url: ./assets/img/speaker_flyer_reade.pdf
-    aff: Data Scientist, Kaggle
+    aff: Data Scientist <br /> Kaggle
     # interest: 
     image: ./assets/img/reade.png
   - name: Nils Thürey
@@ -81,6 +87,7 @@ and industry partners from the Greater Silicon Valley ecosystem. Topics include:
 
 # Invited Speakers (In alphabetical order)
 {% include team.html id="speakers" %}
+<sup>*</sup> denotes Keynote Speaker  
 Stay tuned for more speaker announcements...
 
 
