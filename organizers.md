@@ -20,6 +20,14 @@ speakers:
     url: https://waitong94.github.io/
     aff: Stanford University
     image: ./assets/img/chung.png
+  - name: Walter Reade
+    url: https://www.linkedin.com/in/reade/
+    aff: Kaggle
+    image: ./assets/img/reade.png
+  - name: Adib Bazgir
+    url: https://www.linkedin.com/in/adib-bazgir-698534138
+    aff: University of Missouri
+    image: ./assets/img/bazgir.png
 
 
 ---

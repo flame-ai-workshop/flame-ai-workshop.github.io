@@ -4,11 +4,11 @@ title: Stanford FLAME AI Workshop 2024
 description: "FLAME: Future Learning Approaches for Modeling and Engineering"
 
 speakers:
-  - name: Yossi Matias<sup>*</sup>
+  - name: Yossi Matias #<sup>*</sup>
     url: ./assets/img/speaker_flyer_matias.pdf
     aff: Vice President <br /> Google 
     # interest:
-    image: ./assets/img/matias.png
+    image: ./assets/img/matias_key.png
   - name: Rosella Arcucci
     url: ./assets/img/speaker_flyer_arcucci.pdf
     aff: Associate Professor <br /> Imperial College London
@@ -87,7 +87,7 @@ and industry partners from the Greater Silicon Valley ecosystem. Topics include:
 
 # Invited Speakers (In alphabetical order)
 {% include team.html id="speakers" %}
-<sup>*</sup> denotes Keynote Speaker  
+<!-- <sup>*</sup> denotes Keynote Speaker   -->
 Stay tuned for more speaker announcements...
 
 
