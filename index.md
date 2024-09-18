@@ -38,9 +38,15 @@ speakers:
     image: ./assets/img/barati.png
   - name: Ian Foster
     url: ./assets/img/speaker_flyer_foster.pdf
-    aff: Professor, University of Chicago<br /> Director  DSL Division, Argonne
+    # aff: Professor, University of Chicago<br /> Director  DSL Division, Argonne
+    aff: Professor <br /> University of Chicago 
     # interest: 
     image: ./assets/img/foster.png
+  - name: Matthias Ihme
+    url: ./assets/img/speaker_flyer_ihme.pdf
+    aff: Professor <br /> Stanford University
+    # interest: 
+    image: ./assets/img/ihme.png    
   - name: Lu Lu
     url: ./assets/img/speaker_flyer_lu.pdf
     aff: Assistant Professor <br /> Yale University
