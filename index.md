@@ -54,7 +54,7 @@ speakers:
     image: ./assets/img/lu.png
   - name: Pinaki Pal
     url: ./assets/img/speaker_flyer_pal.pdf
-    aff: Sr. Research Scientist <br /> Argonne
+    aff: Sr. Research Scientist <br /> Argonne National Labs
     # interest: 
     image: ./assets/img/pal.png
   - name: Russell Poldrack
@@ -62,6 +62,11 @@ speakers:
     aff: Professor <br /> Stanford University
     # interest: 
     image: ./assets/img/poldrack.png
+  - name: Owen Price
+    url: ./assets/img/speaker_flyer_price.pdf
+    aff: Research Software Engineer<br /> Globus Labs
+    # interest: 
+    image: ./assets/img/price.png
   - name: Walter Reade
     url: ./assets/img/speaker_flyer_reade.pdf
     aff: Data Scientist <br /> Kaggle
@@ -77,6 +82,11 @@ speakers:
     aff: Associate Professor<br /> KTH Royal Institute of Technology
     # interest: 
     image: ./assets/img/vinuesa.png
+  - name: Logan Ward
+    url: ./assets/img/speaker_flyer_ward.pdf
+    aff: Computational Scientist<br /> Argonne National Labs
+    # interest: 
+    image: ./assets/img/ward.png
 ---
 
 # Mission
