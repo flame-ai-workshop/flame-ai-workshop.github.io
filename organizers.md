@@ -52,5 +52,5 @@ oh_hosts:
 ## Organizing Committee
 {% include team.html id="speakers" %}
 
-## Office Hours Hosts
+## Office Hour Hosts
 {% include team.html id="oh_hosts" %}
