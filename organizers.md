@@ -29,10 +29,28 @@ speakers:
     aff: University of Missouri
     image: ./assets/img/bazgir.png
 
+oh_hosts:
+  - name: Abu Bucker Siddik
+    url: https://www.linkedin.com/in/abu-bucker-siddik
+    aff: New Mexico State University
+    image: ./assets/img/siddik.png
+  - name: Anas Jnini
+    url: https://www.linkedin.com/in/anas-j-61684b102/
+    aff: University of Trento
+    image: ./assets/img/jnini.png
+  - name: Swapnil Kumar
+    url: https://www.linkedin.com/in/swapnil-kumar-5b77b9177/
+    aff: Imperial College London
+    image: ./assets/img/kumar.png
+  - name: Divij Ghose
+    url: https://in.linkedin.com/in/divij-ghose
+    aff: Indian Institute of Science
+    image: ./assets/img/ghose.png
 
 ---
 
 ## Organizing Committee
-
-
 {% include team.html id="speakers" %}
+
+## Office Hours Hosts
+{% include team.html id="oh_hosts" %}
