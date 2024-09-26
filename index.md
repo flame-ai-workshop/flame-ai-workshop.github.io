@@ -74,7 +74,7 @@ speakers:
     image: ./assets/img/reade.png
   - name: Nils Thürey
     url: ./assets/img/speaker_flyer_thurey.pdf
-    aff: Associate Professor<br /> Technische Universität München
+    aff: Professor<br /> Technical University of Munich
     # interest: 
     image: ./assets/img/thurey.png
   - name: Ricardo Vinuesa
