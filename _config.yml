@@ -1,17 +1,86 @@
-title: Stanford FLAME AI Workshop 2024
+# =============================================================================
+# Stanford FLAME AI Workshop — site configuration
+#
+# Site layout (one folder per past edition; the current edition lives at root):
+#   /            -> current edition (2027)   index.md, organizers.md, assets/img/
+#   /2024/       -> archived 2024 edition    2024/index.md, 2024/organizers.md, 2024/assets/img/
+#   /2023/       -> archived 2023 edition    2023/index.md, 2023/organizers.md, 2023/assets/img/
+#
+# Per-edition header settings (title, dates, register/flyer links, banner) are
+# set below under `defaults`, keyed by folder. A page's own front matter wins
+# over these, so any single page can still override a field.
+#
+# NOTE: `jekyll serve` does NOT reload this file. Restart the server after edits.
+# =============================================================================
+
+title: Stanford FLAME AI Workshop
 description: "FLAME: Future Learning Approaches for Modeling and Engineering"
-venue: "Dates: Sept. 23 to Oct. 18 2024 | Venue: Virtual"
-# venue: "Dates: Sept 3 to Sept 27 2024 | Venue: Virtual"
+contact_email: flame.ai.workshop@gmail.com
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
 
-github:
-  about_url: ./index.html
-  apply_url: https://events.humanitix.com/stanford-flame-ai-workshop-2024
-  contact_url: "mailto:flame.ai.workshop@gmail.com"
-  organizer_url: ./organizers.html
-  flyer_url: ./assets/img/flyer.pdf
-  v2023_url: ./2023/
-  main_url: /
+# Edition switcher shown in the header. Every edition except the one being
+# viewed gets a button, in this order. Add a new year here when archiving.
+editions:
+  - year: 2027
+    url: /
+  - year: 2024
+    url: /2024/
+  - year: 2023
+    url: /2023/
 
+defaults:
+  # ---- Current edition: 2027 (root) ----------------------------------------
+  - scope:
+      path: ""
+    values:
+      edition: 2027
+      edition_url: /
+      title: Stanford FLAME AI Workshop 2027
+      venue: "Dates: Feb. 1 to Feb. 26 2027 | Venue: Virtual"
+      register_url:            # e.g. https://events.humanitix.com/... (blank = button hidden)
+      register_label: Register
+      flyer_url:               # e.g. /assets/img/flyer.pdf (blank = button hidden)
+      header_bg: /2024/assets/img/banner.png   # TODO: add a 2027 banner at /assets/img/banner.png
+
+  # ---- Archive: 2024 -------------------------------------------------------
+  - scope:
+      path: "2024"
+    values:
+      edition: 2024
+      edition_url: /2024/
+      title: Stanford FLAME AI Workshop 2024
+      venue: "Dates: Sept. 23 to Oct. 18 2024 | Venue: Virtual"
+      register_url: https://events.humanitix.com/stanford-flame-ai-workshop-2024
+      flyer_url: /2024/assets/img/flyer.pdf
+      header_bg: /2024/assets/img/banner.png
+
+  # ---- Archive: 2023 -------------------------------------------------------
+  - scope:
+      path: "2023"
+    values:
+      edition: 2023
+      edition_url: /2023/
+      title: Stanford FLAME AI Workshop 2023
+      venue: "Dates: Sept 5 to Sept 15 2023 | Venue: Virtual"
+      register_url: https://www.eventbrite.com/e/stanford-flame-ai-workshop-2023-tickets-593756701277
+      flyer_url: /2023/assets/img/flyer.pdf
+      header_bg: "/2023/assets/img/561076_wallpaper-type image focusing on fluid, flames, en_xl-beta-v2-2-2.png"
+
+# Keep repo housekeeping out of the published site.
+# (Jekyll 3 replaces, not merges, the default exclude list, so vendor etc. are listed.)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - node_modules
+  - script
+  - docs
+  - README.md
+  - EDITING.md
+  - LICENSE
+  - libre
+  - jekyll-theme-cayman.gemspec

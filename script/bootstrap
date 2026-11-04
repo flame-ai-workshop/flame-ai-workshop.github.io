@@ -1,6 +1,11 @@
 #!/bin/sh
-
+# One-time setup: install the same Jekyll/plugin versions GitHub Pages uses
+# into ./vendor/bundle (project-local; nothing installed system-wide).
 set -e
+cd "$(dirname "$0")/.."
 
-gem install bundler
+# macOS system Ruby (2.6) is too old; prefer Homebrew Ruby if present.
+[ -x /opt/homebrew/opt/ruby/bin/ruby ] && export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+
+bundle config set --local path vendor/bundle
 bundle install

@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8">
 
-{% seo %}
+    {%- comment -%}
+      Per-edition values (title, venue, register_url, flyer_url, header_bg,
+      edition, edition_url) come from `defaults` in _config.yml, keyed by folder.
+    {%- endcomment -%}
+    <title>{{ page.title | default: site.title }} | {{ site.description }}</title>
+{% seo title=false %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,34 +20,29 @@
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <!-- <header class="page-header" role="banner"> -->
-    <header class="page-header" role="banner" style="background-image: url('{{ page.header_bg | relative_url | default: '/assets/img/banner.png' }}');">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <h3 class="project-venue">{{ page.venue | default: site.venue | default: site.github.project_venue }}</h3>
-      <!-- <h4 class="project-contact">{{ page.contact | default: site.contact| default: site.github.contact }}</h4> -->
-      <a href="{{ site.github.about_url }}" class="btn">About</a>
-      <a href="{{ site.github.apply_url }}" class="btn">Register</a>
-      <a href="{{ site.github.flyer_url }}" class="btn">Flyer</a>
-      <a href="{{ site.github.organizer_url }}" class="btn">Organizers</a>
-      <a href="{{ site.github.contact_url }}" class="btn">Email</a>
-      <!-- <a href="{{ site.github.v2023_url }}" class="btn">Flame AI 2023</a> -->
-      {% if page.url contains '2023' %}
-      <a href="{{ site.github.main_url }}" class="btn">Flame AI 2024</a>
-    {% else %}
-      <a href="{{ site.github.v2023_url }}" class="btn">Flame AI 2023</a>
-    {% endif %}
-      <!-- <a href="{{ site.github.contact_url }}" class="btn">Contact us</a> -->
+    {%- assign edition_url = page.edition_url | default: '/' -%}
+    {%- assign header_bg = page.header_bg | default: '/assets/img/banner.png' %}
+    <header class="page-header" role="banner" style="background-image: url('{{ header_bg | relative_url }}');">
+      <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
+      {% if page.venue %}<h3 class="project-venue">{{ page.venue }}</h3>{% endif %}
+      <a href="{{ edition_url | relative_url }}" class="btn">About</a>
+      {% if page.register_url %}<a href="{{ page.register_url }}" class="btn">{{ page.register_label | default: 'Register' }}</a>{% endif %}
+      {% if page.flyer_url %}<a href="{{ page.flyer_url | relative_url }}" class="btn">Flyer</a>{% endif %}
+      <a href="{{ edition_url | append: 'organizers.html' | relative_url }}" class="btn">Organizers</a>
+      <a href="mailto:{{ site.contact_email }}" class="btn">Email</a>
+      {%- for ed in site.editions %}
+        {%- unless ed.year == page.edition %}
+      <a href="{{ ed.url | relative_url }}" class="btn">Flame AI {{ ed.year }}</a>
+        {%- endunless %}
+      {%- endfor %}
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
 
       <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-        <span class="site-footer-credits">Email us at <a href="mailto:flame.ai.workshop@gmail.com">flame.ai.workshop@gmail.com</a></span>
+        <span class="site-footer-credits">Email us at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></span>
       </footer>
     </main>
   </body>

@@ -1,0 +1,11 @@
+# Jekyll build output / caches (GitHub Pages builds from source, never from _site)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Local Ruby gems (script/bootstrap installs here)
+vendor/
+.bundle/
+
+.DS_Store

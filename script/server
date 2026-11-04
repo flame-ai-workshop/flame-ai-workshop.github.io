@@ -1,3 +1,11 @@
 #!/bin/sh
-
-bundle exec jekyll serve
+# Local preview with auto-rebuild + browser live-reload.
+#   script/server                 -> http://127.0.0.1:4000
+#   script/server --port 4001     -> extra args pass through to `jekyll serve`
+# Edits to pages/layouts/images reload automatically; edits to _config.yml
+# require stopping (Ctrl-C) and re-running this script.
+set -e
+cd "$(dirname "$0")/.."
+[ -x /opt/homebrew/opt/ruby/bin/ruby ] && export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+bundle check >/dev/null 2>&1 || script/bootstrap
+exec bundle exec jekyll serve --livereload "$@"
