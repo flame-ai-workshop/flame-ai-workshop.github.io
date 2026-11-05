@@ -14,6 +14,8 @@ speakers: []
 #    image: /assets/img/doe.png
 ---
 
+**Registration for FLAME AI 2027 is open:** [register here]({{ page.register_url }}).
+
 # Mission
 To foster a dynamic forum for exchanging ideas, cutting-edge data, advanced methods, and models related to ML techniques for fluid dynamics, turbulence, and environmental science - applications crucial to the development of sustainable energy solutions, climate resilience, wildfire mitigation, and safety systems.
 

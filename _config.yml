@@ -39,7 +39,7 @@ defaults:
       edition_url: /
       title: Stanford FLAME AI Workshop 2027
       venue: "Dates: Feb. 1 to Feb. 26 2027 | Venue: Virtual"
-      register_url:            # e.g. https://events.humanitix.com/... (blank = button hidden)
+      register_url: https://events.humanitix.com/stanford-flame-ai-workshop-2027   # blank = button hidden
       register_label: Register
       flyer_url:               # e.g. /assets/img/flyer.pdf (blank = button hidden)
       header_bg: /2024/assets/img/banner.png   # TODO: add a 2027 banner at /assets/img/banner.png

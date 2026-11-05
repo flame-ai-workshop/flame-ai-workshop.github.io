@@ -163,7 +163,7 @@ To show the speaker cards anywhere in the body, keep this line:
 Current placeholders on the 2027 page:
 
 - [x] Dates and venue: 1–26 Feb 2027, Virtual: `_config.yml` → `venue`
-- [ ] Registration link: `_config.yml` → `register_url`
+- [x] Registration link (Humanitix): `_config.yml` → `register_url`
 - [ ] Flyer PDF: `assets/img/flyer.pdf`, then `_config.yml` → `flyer_url`
 - [ ] 2027 banner: `assets/img/banner.png`, then `_config.yml` → `header_bg` (it currently reuses 2024's)
 - [ ] Agenda, challenge description, prize: `index.md`
