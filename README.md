@@ -44,7 +44,9 @@ Pages, layouts, includes, Sass and images reload automatically.
 - **Add a speaker:** put the photo (square, ideally <300 KB) and optional flyer PDF in
   `assets/img/`, then add an entry to `speakers:` in `index.md`.
 - **Set dates / registration / flyer:** edit the `path: ""` block under `defaults` in `_config.yml`.
-- **Change the banner:** add `assets/img/banner.png` and set `header_bg: /assets/img/banner.png`.
+- **Change the banner:** put the image in `assets/img/` and set `header_bg:` to its path. For a
+  mostly-white image set `header_style: light` (dark text); for a dark image use `dark`.
+  Values inherit from the root block, so archived blocks set `header_style: dark` explicitly.
 
 ## Archiving the current edition (e.g. when 2029 starts)
 

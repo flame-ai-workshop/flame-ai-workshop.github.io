@@ -52,7 +52,8 @@ In `_config.yml`, under `defaults`, edit the **first** block (`path: ""` = 2027)
       venue: "Dates: Feb. 1 to Feb. 26 2027 | Venue: Virtual"
       register_url: https://events.humanitix.com/...   # blank = no Register button
       flyer_url: /assets/img/flyer.pdf                 # blank = no Flyer button
-      header_bg: /assets/img/banner.png
+      header_bg: /assets/img/flameflowthing.png
+      header_style: light    # light = dark text (mostly-white banner); dark = white text
 ```
 
 Restart `script/server` to see the changes.
@@ -165,7 +166,7 @@ Current placeholders on the 2027 page:
 - [x] Dates and venue: 1–26 Feb 2027, Virtual: `_config.yml` → `venue`
 - [x] Registration link (Humanitix): `_config.yml` → `register_url`
 - [ ] Flyer PDF: `assets/img/flyer.pdf`, then `_config.yml` → `flyer_url`
-- [ ] 2027 banner: `assets/img/banner.png`, then `_config.yml` → `header_bg` (it currently reuses 2024's)
+- [x] 2027 banner: `assets/img/flameflowthing.png` (`header_bg`, with `header_style: light`)
 - [ ] Agenda, challenge description, prize: `index.md`
 - [ ] Topics graphic (optional): `assets/img/topics.png` plus `![topics](/assets/img/topics.png)` in `index.md`
 - [ ] Invited speakers: `index.md` → `speakers:`

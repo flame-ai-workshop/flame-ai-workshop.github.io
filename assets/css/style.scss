@@ -2,3 +2,21 @@
 ---
 
 @import 'jekyll-theme-cayman';
+
+// Light banners (mostly-white images, e.g. 2027): dark header text instead of
+// white. Enabled per edition with `header_style: light` in _config.yml.
+.page-header--light {
+  color: #2e2d29;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.95), 0 0 2px rgba(255, 255, 255, 0.95);
+}
+
+.page-header--light .btn {
+  text-shadow: none;
+  background-color: rgba(46, 45, 41, 0.85);
+
+  &:hover {
+    color: #fff;
+    background-color: #8c1515;
+    border-color: #fff;
+  }
+}

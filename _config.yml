@@ -42,7 +42,8 @@ defaults:
       register_url: https://events.humanitix.com/stanford-flame-ai-workshop-2027   # blank = button hidden
       register_label: Register
       flyer_url:               # e.g. /assets/img/flyer.pdf (blank = button hidden)
-      header_bg: /2024/assets/img/banner.png   # TODO: add a 2027 banner at /assets/img/banner.png
+      header_bg: /assets/img/flameflowthing.png
+      header_style: light      # light = dark text for mostly-white banners; dark = white text. Set in every block (values inherit from this one)
 
   # ---- Archive: 2024 -------------------------------------------------------
   - scope:
@@ -55,6 +56,7 @@ defaults:
       register_url: https://events.humanitix.com/stanford-flame-ai-workshop-2024
       flyer_url: /2024/assets/img/flyer.pdf
       header_bg: /2024/assets/img/banner.png
+      header_style: dark
 
   # ---- Archive: 2023 -------------------------------------------------------
   - scope:
@@ -67,6 +69,7 @@ defaults:
       register_url: https://www.eventbrite.com/e/stanford-flame-ai-workshop-2023-tickets-593756701277
       flyer_url: /2023/assets/img/flyer.pdf
       header_bg: "/2023/assets/img/561076_wallpaper-type image focusing on fluid, flames, en_xl-beta-v2-2-2.png"
+      header_style: dark
 
 # Keep repo housekeeping out of the published site.
 # (Jekyll 3 replaces, not merges, the default exclude list, so vendor etc. are listed.)

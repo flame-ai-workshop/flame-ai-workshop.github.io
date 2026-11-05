@@ -22,7 +22,7 @@
 
     {%- assign edition_url = page.edition_url | default: '/' -%}
     {%- assign header_bg = page.header_bg | default: '/assets/img/banner.png' %}
-    <header class="page-header" role="banner" style="background-image: url('{{ header_bg | relative_url }}');">
+    <header class="page-header{% if page.header_style == 'light' %} page-header--light{% endif %}" role="banner" style="background-image: url('{{ header_bg | relative_url }}');">
       <h1 class="project-name">{{ page.title | default: site.title }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
       {% if page.venue %}<h3 class="project-venue">{{ page.venue }}</h3>{% endif %}
