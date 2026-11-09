@@ -1,39 +1,30 @@
 ---
 layout: default
 
-# TODO(2027): placeholder copied from the 2024 committee — update names/affiliations.
 speakers:
   - name: Prof. Matthias Ihme
-    url: https://web.stanford.edu/group/ihmegroup/cgi-bin/MatthiasIhme/people/matthias-ihme/
+    url: https://www.linkedin.com/in/matthias-ihme-47ba974/
     aff: Stanford University, SLAC
     image: /assets/img/ihme.png
-  - name: Bassem Akoush
-    url: https://www.linkedin.com/in/bassem-akoush/
+  - name: Karl Toepperwien
+    url: https://www.linkedin.com/in/karl-toepperwien-14a623252/
     aff: Stanford University
-    image: /assets/img/akoush.png
-  - name: Jen Zen Ho
-    url: https://au.linkedin.com/in/jen-zen-ho/
+    image: /assets/img/toepperwien.png
+  - name: Ben Krisna
+    url: https://www.linkedin.com/in/benyamin-krisna-822ab9141/
     aff: Stanford University
-    image: /assets/img/jenzen.png
-  - name: Wai Tong Chung
-    url: https://waitong94.github.io/
+    image: /assets/img/krisna.png
+  - name: Blake Andersen
+    url: https://www.linkedin.com/in/blake-c-andersen
     aff: Stanford University
-    image: /assets/img/chung.png
-  - name: Walter Reade
-    url: https://www.linkedin.com/in/reade/
-    aff: Kaggle
-    image: /assets/img/reade.png
-  - name: Adib Bazgir
-    url: https://www.linkedin.com/in/adib-bazgir-698534138
-    aff: University of Missouri
-    image: /assets/img/bazgir.png
+    image: /assets/img/andersen.png
 
 # Office hour hosts: section below appears only when this list is non-empty.
 oh_hosts: []
 ---
 
 ## Organizing Committee
-{% include team.html id="speakers" %}
+{% include team.html id="speakers" columns=2 %}
 
 {% if page.oh_hosts.size > 0 %}
 ## Office Hour Hosts
