@@ -88,6 +88,9 @@ Organizing Committee and `oh_hosts:` for Office Hour Hosts. That section only ap
     image: /assets/img/smith.png
 ```
 
+The 2027 committee uses a fixed 2-column grid: `{% include team.html id="speakers" columns=2 %}`.
+Change the number, or delete `columns=2` to go back to normal wrapping. Phones always wrap.
+
 ### 3.4 Edit page text
 
 The body of `index.md` is plain Markdown:
@@ -170,7 +173,7 @@ Current placeholders on the 2027 page:
 - [ ] Agenda, challenge description, prize: `index.md`
 - [ ] Topics graphic (optional): `assets/img/topics.png` plus `![topics](/assets/img/topics.png)` in `index.md`
 - [ ] Invited speakers: `index.md` → `speakers:`
-- [ ] Organizing committee: `organizers.md` (currently copied from 2024; verify every entry)
+- [x] Organizing committee: `organizers.md`
 - [ ] Office-hour hosts: `organizers.md` → `oh_hosts:`
 
 Questions: flame.ai.workshop@gmail.com

@@ -14,10 +14,18 @@
         margin-left: 1em;
         margin-right: 1em;
     }
+    /* Optional fixed column count (include param `columns`); phones fall back to wrapping. */
+    .profiles-grid {
+        display: grid;
+        grid-template-columns: repeat(var(--cols), auto);
+    }
+    @media screen and (max-width: 42em) {
+        .profiles-grid { display: flex; }
+    }
 </style>
 
 
-<div class="profiles">
+<div class="profiles{% if include.columns %} profiles-grid" style="--cols: {{ include.columns }};{% endif %}">
   {% for member in team %}
   <div class="profile" style="font-size:16px; text-align:center;">
     <div class="team team-summary team-summary-large">
